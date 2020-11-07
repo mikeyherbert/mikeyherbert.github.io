@@ -13,15 +13,27 @@ body{
     animation-direction: normal;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    overflow: hidden;
 }
 
 p {
     font-family: 'Calibri';
     font-size: 40px;
     color: white;
+    text-align: center;
+}
+
+button{
+    position: absolute;
+    margin-left: 46.5%;
 }
 
 video{
     visibility: hidden;
     position: absolute;
+    margin-left: 25%;
+}
+
+img{
+    visibility: hidden;
 }
